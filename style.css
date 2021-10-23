@@ -1,0 +1,42 @@
+.logo
+{
+ height: 40px;
+ margin-left: 15px;
+}
+
+.renk-navbar
+{
+background-color: #4B3869;
+}
+.nav-link
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link:hover
+{
+    color: white;
+}
+
+@media (max-width:768px) 
+{
+ .nav-item 
+ {
+    margin-top: 15px;
+    transition: all 0.5s ease;
+ }
+ .nav-item:hover:not(.lupendos-logo)
+ {
+     background-color: white;
+     padding-left: 40px;
+ }
+ .nav-link:hover
+ {
+     color: #4B3869;
+ }   
+ .logo_border
+ {
+    color: white;
+    margin-right: 20px;
+ }
+}
